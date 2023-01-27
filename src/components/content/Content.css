@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BackgroundConatiner{
+    width: 88%;
+    height: 150vh;
+    background-color:#e2e3e9;
+    border-radius: 1em;
+    margin: auto;
+    padding-top: 3em;
+}
+
+.BackgroundLayer{
+    width: 93%;
+    height: 83em;
+    background-color:#eeeef2;
+    border-radius: 5vh;
+    margin: auto;
+    display: flex;
+    padding: 2em;
+
+}
+.LeftPanel{
+    width: 23%;
+    height: 100%;
+    background-image:linear-gradient(-20deg,#1e2c5c,#0759fb);
+    flex-shrink: 1;
+    border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+}
+
+.FirstLayer{
+    width:90%;
+    margin: auto;
+    height: 25%;
+    box-shadow: 0px 1px rgb(153, 173, 252);
+   
+}
+.Profile{
+    width: 55%;
+    height: 10.3em;
+    background-color: #d6e4ff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+.Profile:hover{
+    background-color: rgb(211, 211, 212);
+}
+ .UserIcon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 9em;
+    color: white;
+    margin-left: 10px;
+}
+.Profile-Data{
+    width: 75%;
+    height: 6em;
+    margin: auto;
+    margin-top:2em;
+} 
+.DataName{
+    width: 90%;
+    color: #d6e4ff;
+    height: 30%;
+    font-weight: bold;
+    display: block;
+    list-style-type: none;
+    text-align: left;
+}
+.dot{
+    text-align: right;
+    float:right;
+    padding-right: 120px;
+    font-weight: bold;
+}
+.DataName:hover{
+    color: rgb(195, 183, 240);
+    scale: 1.05;
+}
+.dot:hover{
+    color: rgb(195, 183, 240);
+}
+.SecondLayer{
+    width:90%;
+    margin: auto;
+    height: 35%;
+    box-shadow: 0px 1px rgb(154, 172, 250);
+}
+.Left-Menu{
+    width: 100%;
+    height: 17%;
+    padding-top:1em;
+    color: rgb(245, 235, 235);
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: .07em;
+    margin-top: 10px;
+    display: flex;
+    padding-top:35px;
+    justify-content: space-between;
+
+}
+.font{
+    padding-right: 10px;
+}
+.Left-Menu:hover{
+    color: rgb(195, 183, 240);
+    box-shadow:1px 2px 2px #b1b1fb;
+    border-radius: 1em;
+}
+.Notfication{
+    width: 21px;
+    height: 21px;
+    background-color: rgba(245, 245, 253, 0.1);
+    border-radius: 4px;
+    color: rgb(215, 226, 253);
+    font-size: 15px;
+    text-align: center;
+    align-content: center;
+}
+.Notfication:hover{
+    scale: 1.1;
+    box-shadow:1px 2px 2px #b1b1fb;
+    color: #0f0f02;
+}
+.Fonts{
+    padding-right: 15px;
+}
+.ThirdLayer{
+    width:90%;
+    margin: auto;
+    height: 40%;
+}
+.left-footer1{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+.footer-child{
+    width: 100%;
+    height: 19%;
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px rgb(153, 173, 252);
+    display: inline-block;
+}
+.F-start{
+width: 70%;
+margin-top:1.2em;
+}
+.F-end{
+    width: 15%;
+    margin-left: 17.2em;
+    margin-top:-1.2em;
+
+}
+.end-notification{
+    margin: auto;
+}
+.Not-Icon{
+    margin-bottom: 2em;
+}
+.Not-Icon i{
+margin-top: 0.2em;
+}
+.Workspace-Menu{
+    color: white;
+    font-weight: bold;
+}
+.footer-child:hover{
+    box-shadow:1px 2px 2px #b1b1fb;
+    color: #0f0f02;
+    border-radius: 10px;
+}
+.Logout-Conatainer{
+    width: 100%;
+    height: 3em;
+    color: white;
+    margin-top: 1em;
+    padding-top: 1em;
+    
+}
+.Logout-Conatainer:hover{
+    box-shadow:1px 2px 2px #b1b1fb;
+    border-radius: 10px;
+    color: #020e34;
+}
+.Logout-Icon{
+    width: 10%;
+    color: white;
+    display: inline-block;
+}
+.Logout-Text{
+    color: white;
+    display: inline-block;
+}
+.RightPanel{
+    width: 77%;
+    height: 100%;
+    background-color:#ffffff ;
+    flex-grow: 2;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+}
+.First-RightPanel{
+    width: 100%;
+    height: 21%;
+    padding-top: 3.5em;
+    background-color:#ffffff ;
+    border-top-right-radius: 2.5rem;
+}
+.FRP-Top{
+    width: 97.5%;
+    height: 5em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.FRP-TopChild{
+    width: 50%;
+}
+.UI-Text{
+    color: #010123;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.SearchContainer{
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.SearchBox{
+    width: 85%;
+    height: 75%;
+    background-color: #eeeef2;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5vh;
+}
+.SearchBox:hover{
+    box-shadow:1px 2px 2px 1px #cbcbcb;
+}
+.SearchIcon{
+    color: rgb(20, 2, 2);
+    width: 4%;
+    height:70% ;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+input{
+    border: none;
+    width: 93%;
+    height: 100%;
+    background-color:#eeeef2;
+    border-radius: 5vh;
+    margin-left: 5px;    
+}
+input:focus {
+    outline-width: 0;
+}
+.Notifi-Bell{
+   width: 8%;
+   background-color: #eeeef2;
+   height: 80%;
+   margin-top: 7px;
+   border-radius: 50%;
+   margin-right: 10px;
+   padding:2.6%;
+}
+.Notifi-Bell:hover{
+    color: white;
+    background-color: #fcfcfe;
+    color: black;
+}
+.notDot{
+    position:absolute;
+    color: red;
+    margin-top: -25px;
+    margin-left: 9px;
+    font-size: 19px;
+}
+.FRP-Bottom{
+    width: 97.5%;
+    height: 5em;
+    margin: auto;
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: space-between;
+}
+.FRP-BottomChild1{
+  width: 45%;
+  display: flex;
+  justify-content:space-between;
+}
+.Nav-Menu{
+    width: 30%;
+    height: 60%;
+    margin-top: 1em;
+    background-color:#e2e3e9;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Nav-Menu:hover{
+    background-color: white;
+  }
+
+.icons{
+    width: 20%;
+    height: 90%;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+.FilDayIcon{
+    padding-left: 13px;
+    font-family: sans-serif;
+}
+.DayFilText{
+margin-top: 15px;
+}
+.NavTask{
+    width: 30%;
+    height: 60%;
+    margin-top: 1em;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border:2px solid rgb(4, 4, 248);
+
+}
+.NavTaskLayer{
+    background-color: #0759fb;
+    width: 96%;
+    height: 90%;
+    border-radius: 4vh;
+    margin-top: 1.7%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.AddTaskIcon{
+    background-color: #d6e4ff;
+    width:19px;
+    height: 19px;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 1.8px;
+}
+.AddTaskText{
+    width: auto;
+    margin-right: 10px;
+    padding-right: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.FRP-BottomChild2{
+    width: 17%;
+  }
+  .DateForUpdate{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    margin-top: .9em;
+    font-family: sans-serif;
+    text-align: end;
+  }
+  .DateForUpdate span{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .DateForUpdate li span{
+    font-size: 12px;
+    margin-left: -10px;
+    color: #010123;
+
+  }
+  .DateForUpdate li {
+    width: 130px;
+    margin-left: 35px;
+    color: rgb(6, 202, 6);
+  }
+
+.Second-RightPanel{
+    width: 100%;
+    height: 79%;
+    border-bottom-right-radius: 2.5rem;
+    background-color: #ffffff;
+}
+.RightPanelLIst{
+    width: 97.4%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.WorkingData{
+    width: 32.4%;
+    height: 100%;
+}
+.workingHead{
+    width: 100%;
+    height: 7%;
+    display: flex;
+
+}
+.Head{
+    width: 50%;
+    height: 100%;
+    background-color:#f9f8ff;
+    border-top-right-radius: 2.5vh;
+    border-top-left-radius: 3vh;
+}
+.HeaderLevel{
+    margin-top: 30px;
+    width: 100%;
+    margin-left:20px;
+    display: flex;
+}
+.worklevel1{
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    color: rgb(228, 7, 7);
+}
+.worklevel2{
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    color: rgb(8, 0, 255);
+}
+.worklevel3{
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    color: rgb(4, 190, 50);
+}
+.HeaderText{
+    margin-left: -20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.WorkTable{
+    width: 100%;
+    height: 91.8%;
+    background-color:#f9f8ff;
+    border-top-right-radius:3vh;
+    padding-top:27px;
+}
+.endTable{
+    border-bottom-right-radius:3vh;
+}
+.WorkItemsSplit{
+    margin: auto;
+    width: 90%;
+    height: 2.5px;
+    background-color:rgb(209, 220, 228);
+}
+.WorkItems{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    height: 31%;
+    background-color: #fafafc;
+    border-radius: 2vh;
+    padding-top: 10px;
+}
+.firstWork{
+    width: 95%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.WorkType{
+    width: 47%;
+    height: 70%;
+    font-weight: bold;
+    color: #020d60;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.WorkType:hover{
+    box-shadow:1px 2px 2px 1px #cbcbcb;
+    border-radius:.9vh ;
+}
+.WorkIcon{
+width: 25px;
+height: 60%;
+margin-top: 3px;
+margin-right: -9px;
+color:#030f7e ;
+}
+.WorkIcon:hover{
+    color: green;
+}
+.SecondWork{
+    width: 95%;
+    height: 63%;
+    margin-top: 100px;
+    margin: auto;
+    box-shadow:1px 2px 2px 1px #cbcbcb;
+    border-radius: 2vh;
+}
+.SecondWork:hover{
+    scale: 1.05;
+}
+.WorkContent{
+    background-color: #f2f2f3;
+    width: 300px;
+    height: 170px;
+    border-radius: 2vh;
+    
+}
+.FirstContetnt{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.TaskIcon{
+    width: 20%;
+    height: 90%;
+    color: green;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.TaskId{
+    width: 20%;
+    height: 90%;
+    width: 60%;
+    color: rgb(5, 12, 158);
+    margin-left: 147px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.SecondContent{
+    display: flex;
+    justify-content: space-between;
+}
+.Assigners{
+    width:150px ;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 20px;
+
+
+}
+.ProfileHead{
+    width:120px;
+    margin-left: 196px;
+    margin-top: -25px;
+}
+.WorkProfile{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+display: inline-block;
+font-size: 30px;
+color: #324058;
+background-color: #eaeafb;
+}
+.WP2,.WP3{
+margin-left: -10px;
+}
+.WorkProfilePlus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #324058;
+    background-color: #eaeafb;
+    font-weight: bold;
+    margin-top: -29px;
+    padding: 5px;
+    padding-top: -5px;
+    margin-left: 60px;
+    position: absolute;
+    border: 3px solid #324058;
+}
+.ThirdWork{
+    width: 95%;
+    height: 15%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(211, 223, 252);
+    border-radius: 2vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.workingProcess{
+width: 90%;
+margin: auto;
+height: 20px;
+
+border-radius: 2vh;
+margin-top: 35px;
+}
+.red{
+    border:1px solid #ee011d;
+    /* background-color: rgb(253, 89, 89); */
+    color: #01012a;
+    text-align: center;
+font-weight: bold;
+}
+.blue{
+    border:1px solid #0119ee;
+  color: #01012a;
+  text-align: center;
+font-weight: bold;
+}
+.green{
+    border:1px solid #076201;
+background-color: rgb(138, 253, 138);
+color: #01012a;
+text-align: center;
+font-weight: bold;
+}
+.Percentage1{
+    width: 77%;
+    height: 100%;
+    border-radius: 2vh;
+    margin-top: -18px;
+    background-color: #72b0fc;
+}
+.Percentage2{
+    width: 19%;
+    background-color: #72b0fc;
+    height: 100%;
+    border-radius: 2vh;
+    margin-top: -18px;
+}
+.Percentage3{
+    width: 54%;
+    background-color: #72b0fc;
+    height: 100%;
+    border-radius: 2vh;
+    margin-top: -18px;
+}
+.ProjectLink{
+    width: 40%;
+    color: #04044e;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.ThirdWork:hover{
+    box-shadow:1px 2px 2px 1px #c2d6fb;
+}
+.ProjectLinkIcon{
+    width: 30px;
+    color: #380878;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.Bi{
+    color: #0119ee;
+}
+.Ri{
+    color: rgb(224, 6, 6);
+}
+.ProjectLinkIcon:hover{
+color: rgb(214, 3, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
